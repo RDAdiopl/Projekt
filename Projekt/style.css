@@ -1,0 +1,96 @@
+#logowanie
+{
+    margin: 0 auto;
+    height: 140px;
+    width:  200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+#logowanie > .button
+{
+    position: relative;
+    border-radius: 15px;
+    top: 15px;
+}
+#menu
+{
+    position: fixed;
+    border-bottom: 2px solid black;
+    height: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: darkgreen;
+}
+#menu > form > .button
+{
+    background-color: cornflowerblue;
+    border: 2px solid darkblue;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 50px;
+    width: 100px;
+}
+#menu > form >.button2
+{
+    position: relative;
+    left: 90%;
+    top: -50;
+    background-color: cornflowerblue;
+    border: 2px solid darkblue;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 20px;
+    width: 100px;
+}
+#menu > form >.button3
+{
+    position: fixed;
+    right: 170;
+    top: 0;
+    background-color: cornflowerblue;
+    border: 2px solid darkblue;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 20px;
+    width: 100px;
+}
+#main > form >.zdj
+{
+    padding-top: 10px;
+    text-align: center;
+    width: 230px;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+.zdj > input[type=number]{
+    width: 40px;
+} 
+#main > form >input[type=button]
+{
+    position: relative;
+    border-radius: 15px;
+    top: 15px;
+}
+#usun > form >.zdj
+{
+    padding-top: 10px;
+    text-align: center;
+    width: 230px;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+#usun
+{
+    width: 240px;
+    height: 350px;
+}
+#dodaj
+{
+    position: absolute;
+    top: 80px;
+    left: 350px;
+}
